@@ -2,6 +2,8 @@
 import './App.css';
 import Hello from './Hello';
 import Counter from './Counter';
+import Todo from './ToDo';
+import Weather from './Weather';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       </header> */}
       <div><Hello /></div>
       <div><Counter/></div>
+      <div><Todo/></div>
+      <div><Weather/></div>
     </div>
     
   );
